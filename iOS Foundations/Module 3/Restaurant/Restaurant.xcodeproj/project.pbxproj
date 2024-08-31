@@ -7,28 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA774DB82C7BC21B0042D002 /* MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA774DB72C7BC21B0042D002 /* MenuApp.swift */; };
-		BA774DBA2C7BC21B0042D002 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA774DB92C7BC21B0042D002 /* MenuView.swift */; };
-		BA774DBC2C7BC21D0042D002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA774DBB2C7BC21D0042D002 /* Assets.xcassets */; };
-		BA774DBF2C7BC21D0042D002 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA774DBE2C7BC21D0042D002 /* Preview Assets.xcassets */; };
-		BA774DC62C7BDD130042D002 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA774DC52C7BDD130042D002 /* MenuItem.swift */; };
-		BA774DC82C7C19430042D002 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA774DC72C7C19430042D002 /* DataService.swift */; };
-		BA8E88E32C7D68DC00824695 /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E88E22C7D68DC00824695 /* MenuListRow.swift */; };
+		BA8E89112C7EAD0500824695 /* RestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E89102C7EAD0500824695 /* RestaurantApp.swift */; };
+		BA8E89132C7EAD0500824695 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E89122C7EAD0500824695 /* MainView.swift */; };
+		BA8E89152C7EAD0700824695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8E89142C7EAD0700824695 /* Assets.xcassets */; };
+		BA8E89182C7EAD0700824695 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8E89172C7EAD0700824695 /* Preview Assets.xcassets */; };
+		BA8E891F2C7EB15D00824695 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E891E2C7EB15D00824695 /* AboutView.swift */; };
+		BA8E89212C7EB1AD00824695 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E89202C7EB1AD00824695 /* GalleryView.swift */; };
+		BA8E89232C7EB1C700824695 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E89222C7EB1C700824695 /* MenuView.swift */; };
+		BA8E89272C7EB2CC00824695 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E89242C7EB2CC00824695 /* DataService.swift */; };
+		BA8E89282C7EB2CC00824695 /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E89252C7EB2CC00824695 /* MenuListRow.swift */; };
+		BA8E89292C7EB2CC00824695 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E89262C7EB2CC00824695 /* MenuItem.swift */; };
+		BA8E892B2C8146AB00824695 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E892A2C8146AB00824695 /* PhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA774DB42C7BC21B0042D002 /* Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA774DB72C7BC21B0042D002 /* MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuApp.swift; sourceTree = "<group>"; };
-		BA774DB92C7BC21B0042D002 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		BA774DBB2C7BC21D0042D002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA774DBE2C7BC21D0042D002 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BA774DC52C7BDD130042D002 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
-		BA774DC72C7C19430042D002 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		BA8E88E22C7D68DC00824695 /* MenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
+		BA8E890D2C7EAD0500824695 /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E89102C7EAD0500824695 /* RestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantApp.swift; sourceTree = "<group>"; };
+		BA8E89122C7EAD0500824695 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BA8E89142C7EAD0700824695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8E89172C7EAD0700824695 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA8E891E2C7EB15D00824695 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		BA8E89202C7EB1AD00824695 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		BA8E89222C7EB1C700824695 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		BA8E89242C7EB2CC00824695 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataService.swift; path = "../../../Module 2/Menu/Menu/DataService.swift"; sourceTree = "<group>"; };
+		BA8E89252C7EB2CC00824695 /* MenuListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuListRow.swift; path = "../../../Module 2/Menu/Menu/MenuListRow.swift"; sourceTree = "<group>"; };
+		BA8E89262C7EB2CC00824695 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuItem.swift; path = "../../../Module 2/Menu/Menu/MenuItem.swift"; sourceTree = "<group>"; };
+		BA8E892A2C8146AB00824695 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA774DB12C7BC21B0042D002 /* Frameworks */ = {
+		BA8E890A2C7EAD0500824695 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +46,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA774DAB2C7BC21B0042D002 = {
+		BA8E89042C7EAD0500824695 = {
 			isa = PBXGroup;
 			children = (
-				BA774DB62C7BC21B0042D002 /* Menu */,
-				BA774DB52C7BC21B0042D002 /* Products */,
+				BA8E890F2C7EAD0500824695 /* Restaurant */,
+				BA8E890E2C7EAD0500824695 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BA774DB52C7BC21B0042D002 /* Products */ = {
+		BA8E890E2C7EAD0500824695 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA774DB42C7BC21B0042D002 /* Menu.app */,
+				BA8E890D2C7EAD0500824695 /* Restaurant.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA774DB62C7BC21B0042D002 /* Menu */ = {
+		BA8E890F2C7EAD0500824695 /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
-				BA774DB72C7BC21B0042D002 /* MenuApp.swift */,
-				BA774DB92C7BC21B0042D002 /* MenuView.swift */,
-				BA774DC52C7BDD130042D002 /* MenuItem.swift */,
-				BA8E88E22C7D68DC00824695 /* MenuListRow.swift */,
-				BA774DC72C7C19430042D002 /* DataService.swift */,
-				BA774DBB2C7BC21D0042D002 /* Assets.xcassets */,
-				BA774DBD2C7BC21D0042D002 /* Preview Content */,
+				BA8E89102C7EAD0500824695 /* RestaurantApp.swift */,
+				BA8E89122C7EAD0500824695 /* MainView.swift */,
+				BA8E89142C7EAD0700824695 /* Assets.xcassets */,
+				BA8E89162C7EAD0700824695 /* Preview Content */,
+				BA8E891E2C7EB15D00824695 /* AboutView.swift */,
+				BA8E89202C7EB1AD00824695 /* GalleryView.swift */,
+				BA8E89222C7EB1C700824695 /* MenuView.swift */,
+				BA8E89242C7EB2CC00824695 /* DataService.swift */,
+				BA8E89262C7EB2CC00824695 /* MenuItem.swift */,
+				BA8E89252C7EB2CC00824695 /* MenuListRow.swift */,
+				BA8E892A2C8146AB00824695 /* PhotoView.swift */,
 			);
-			path = Menu;
+			path = Restaurant;
 			sourceTree = "<group>";
 		};
-		BA774DBD2C7BC21D0042D002 /* Preview Content */ = {
+		BA8E89162C7EAD0700824695 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BA774DBE2C7BC21D0042D002 /* Preview Assets.xcassets */,
+				BA8E89172C7EAD0700824695 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +91,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA774DB32C7BC21B0042D002 /* Menu */ = {
+		BA8E890C2C7EAD0500824695 /* Restaurant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA774DC22C7BC21D0042D002 /* Build configuration list for PBXNativeTarget "Menu" */;
+			buildConfigurationList = BA8E891B2C7EAD0700824695 /* Build configuration list for PBXNativeTarget "Restaurant" */;
 			buildPhases = (
-				BA774DB02C7BC21B0042D002 /* Sources */,
-				BA774DB12C7BC21B0042D002 /* Frameworks */,
-				BA774DB22C7BC21B0042D002 /* Resources */,
+				BA8E89092C7EAD0500824695 /* Sources */,
+				BA8E890A2C7EAD0500824695 /* Frameworks */,
+				BA8E890B2C7EAD0500824695 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Menu;
-			productName = Menu;
-			productReference = BA774DB42C7BC21B0042D002 /* Menu.app */;
+			name = Restaurant;
+			productName = Restaurant;
+			productReference = BA8E890D2C7EAD0500824695 /* Restaurant.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BA774DAC2C7BC21B0042D002 /* Project object */ = {
+		BA8E89052C7EAD0500824695 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					BA774DB32C7BC21B0042D002 = {
+					BA8E890C2C7EAD0500824695 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = BA774DAF2C7BC21B0042D002 /* Build configuration list for PBXProject "Menu" */;
+			buildConfigurationList = BA8E89082C7EAD0500824695 /* Build configuration list for PBXProject "Restaurant" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +131,49 @@
 				en,
 				Base,
 			);
-			mainGroup = BA774DAB2C7BC21B0042D002;
-			productRefGroup = BA774DB52C7BC21B0042D002 /* Products */;
+			mainGroup = BA8E89042C7EAD0500824695;
+			productRefGroup = BA8E890E2C7EAD0500824695 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA774DB32C7BC21B0042D002 /* Menu */,
+				BA8E890C2C7EAD0500824695 /* Restaurant */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BA774DB22C7BC21B0042D002 /* Resources */ = {
+		BA8E890B2C7EAD0500824695 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA774DBF2C7BC21D0042D002 /* Preview Assets.xcassets in Resources */,
-				BA774DBC2C7BC21D0042D002 /* Assets.xcassets in Resources */,
+				BA8E89182C7EAD0700824695 /* Preview Assets.xcassets in Resources */,
+				BA8E89152C7EAD0700824695 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BA774DB02C7BC21B0042D002 /* Sources */ = {
+		BA8E89092C7EAD0500824695 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA774DC62C7BDD130042D002 /* MenuItem.swift in Sources */,
-				BA774DBA2C7BC21B0042D002 /* MenuView.swift in Sources */,
-				BA774DB82C7BC21B0042D002 /* MenuApp.swift in Sources */,
-				BA8E88E32C7D68DC00824695 /* MenuListRow.swift in Sources */,
-				BA774DC82C7C19430042D002 /* DataService.swift in Sources */,
+				BA8E89282C7EB2CC00824695 /* MenuListRow.swift in Sources */,
+				BA8E89232C7EB1C700824695 /* MenuView.swift in Sources */,
+				BA8E89132C7EAD0500824695 /* MainView.swift in Sources */,
+				BA8E892B2C8146AB00824695 /* PhotoView.swift in Sources */,
+				BA8E891F2C7EB15D00824695 /* AboutView.swift in Sources */,
+				BA8E89272C7EB2CC00824695 /* DataService.swift in Sources */,
+				BA8E89292C7EB2CC00824695 /* MenuItem.swift in Sources */,
+				BA8E89112C7EAD0500824695 /* RestaurantApp.swift in Sources */,
+				BA8E89212C7EB1AD00824695 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BA774DC02C7BC21D0042D002 /* Debug */ = {
+		BA8E89192C7EAD0700824695 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		BA774DC12C7BC21D0042D002 /* Release */ = {
+		BA8E891A2C7EAD0700824695 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,14 +292,14 @@
 			};
 			name = Release;
 		};
-		BA774DC32C7BC21D0042D002 /* Debug */ = {
+		BA8E891C2C7EAD0700824695 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Menu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Restaurant/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.henrychon.Menu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychon.Restaurant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,14 +320,14 @@
 			};
 			name = Debug;
 		};
-		BA774DC42C7BC21D0042D002 /* Release */ = {
+		BA8E891D2C7EAD0700824695 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Menu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Restaurant/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -324,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.henrychon.Menu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychon.Restaurant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -335,25 +351,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA774DAF2C7BC21B0042D002 /* Build configuration list for PBXProject "Menu" */ = {
+		BA8E89082C7EAD0500824695 /* Build configuration list for PBXProject "Restaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA774DC02C7BC21D0042D002 /* Debug */,
-				BA774DC12C7BC21D0042D002 /* Release */,
+				BA8E89192C7EAD0700824695 /* Debug */,
+				BA8E891A2C7EAD0700824695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA774DC22C7BC21D0042D002 /* Build configuration list for PBXNativeTarget "Menu" */ = {
+		BA8E891B2C7EAD0700824695 /* Build configuration list for PBXNativeTarget "Restaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA774DC32C7BC21D0042D002 /* Debug */,
-				BA774DC42C7BC21D0042D002 /* Release */,
+				BA8E891C2C7EAD0700824695 /* Debug */,
+				BA8E891D2C7EAD0700824695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BA774DAC2C7BC21B0042D002 /* Project object */;
+	rootObject = BA8E89052C7EAD0500824695 /* Project object */;
 }
