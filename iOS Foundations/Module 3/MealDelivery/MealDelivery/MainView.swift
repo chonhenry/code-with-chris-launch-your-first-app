@@ -11,14 +11,20 @@ struct MainView: View {
     var body: some View {
         
         TabView {
-            Text("Meals")
+            MealsView()
                 .tabItem {
-                    MealsView()
+                    VStack {
+                        Image(systemName: "fork.knife.circle.fill")
+                        Text("Meals")
+                    }
                 }
             
-            Text("About")
+            AboutView()
                 .tabItem {
-                    AboutView()
+                    VStack {
+                        Image(systemName: "info.circle")
+                        Text("About")
+                    }
                 }
         }
     }
